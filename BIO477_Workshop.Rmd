@@ -1,5 +1,5 @@
 ---
-title: "BIO477 R workshop"
+title: "Ontology R workshop"
 author: "Katherine I. Cooper"
 date: "2025-11-11"
 output: html_document
@@ -307,3 +307,4 @@ Creates a map connecting the pathways impacted to each other. In TNBC, we see nu
 gse_sim <- pairwise_termsim(gse)
 emapplot(gse_sim, showCategory = 10)
 ```
+
